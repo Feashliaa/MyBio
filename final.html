@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CSD 340 Web Development with HTML and CSS</title>
+    <link rel="stylesheet" type="text/css" href="final.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<div id="alert" class="noselect">Information Added to Database</div>
+
+<body class="scroll_bar">
+    <header id="home" class="noselect"> Riley Dorrington's Landing Page </header>
+    <nav class="navbar">
+        <a href="#hobbies">Hobbies</a>
+        <a href="#experience">Experience</a>
+    </nav>
+
+    <div class="container">
+        <div class="hobbies" id="hobbies">
+            <h1 class="noselect">Hobbies</h1>
+            <div class="grid-3-col">
+                <div class="card">
+                    <div class="card-title"> Video Games </div>
+                    <hr>
+                    <div class="card-content">
+                        <p>I'm an avid fan of video games, and I've been playing them since I was a
+                            kid. I've played games on a multitude of platforms, including the Playstation, Nintentdo,
+                            and
+                            predominantly the PC. I've played a wide variety of games, including MMORPGs, FPSs, and
+                            RTSs.
+                            I've also played a lot of World of Warcraft, and I play a lot of the Sid Meier's
+                            Civilization
+                            series, and have put in hundreds of hours into both.</p>
+                        <a href="https://civilization.com/">
+                            <img src="Civ6.jpg" class="civ6" alt="Civilization 6">
+                        </a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-title"> Collecting </div>
+                    <hr>
+                    <div class="card-content">
+                        <p>I very much enjoy collecting things, and I've been doing it since I was a kid. I've collected
+                            mainly a lot of tools, and I've amassed a large collection of them. Most of them are hand
+                            tools, such as pocket knives, multitools, and so on. I've also collected a lot of other
+                            things, such as cool looking rocks, and I've even collected a few coins. I very much enjoy
+                            my knife collection the most, and even though I've been collecting them for a long time, I
+                            still enjoy adding to it. Some people might find it strange that I collect knives, but I
+                            find it very interesting, and I enjoy the variety of knives that are out there. </p> Below
+                        is the picture of my current favorite in my collection, a Spyderco Para 3 in Carbon Fiber.
+                        <a
+                            href="https://www.spyderco.com/catalog/details/C223MCFLMX/Para-trade-3-Marbled-Carbon-Fiber-Elmax-Exclusive/2322">
+                            <img src="para3.jpg" class="para3" alt="Spyderco Para 3">
+                        </a>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-title"> Cooking </div>
+                    <hr>
+                    <div class="card-content">
+                        <p>I very much enjoy cooking, and I pride myself in my ability to cook. I've
+                            been cooking for the past few years, and I predominantly enjoy cooking steaks. I've cooked a
+                            lot
+                            of different types of steaks, and I've come to find a lot of hidden cuts out there with my
+                            favorite being a brazilian cut called Picanha. I've cooked them on a variety of different
+                            methods, including the grill, the oven, and the stove, however I've found that cooking them
+                            using a sous vide machine is the best way to cook them. Make sure to cook them to your
+                            preference, and finish them off on a nice cast iron to get that nice crust on them. </p>
+
+                        <a href="https://www.youtube.com/watch?v=45gpK68ZT4s">
+                            <img src="picanha.jpg" class="steak" alt="Picanha">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="experience" id="experience">
+        <h1 class="noselect">Experience and Personal Interests</h1>
+        <div class="grid-3-col">
+            <div class="card">
+                <div class="card-title"> Education </div>
+                <hr>
+                <div class="card-content">
+                    My Education has been a very interesting journey, and I've learned a lot of things along the way,
+                    and have
+                    gained a lot of experience in a multitude of different sectors of programming. I've achieved an
+                    associates
+                    degree in Computer Information Systems, and I'm currently working on my bachelors degree in
+                    Software. I maintained
+                    a 3.6 GPA throughout my time in college, and look to maintain that through the end of my studies.
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-title"> Skills </div>
+                <hr>
+                <div class="card-content">
+                    During my life I have learned a lot of different skills, mainly in the sector of programming.
+                    Languages that I've worked with and have learned include C++, Python, JavaScript, HTML/CSS, Java,
+                    Visual Basic, SQL, Java, and a bit of x86 Assembly. To me it seems like I'm learning to be a jack of
+                    all trades, and I'm very interested in learning as much about programming as I can.
+                </div>
+            </div>
+            <div class="card">
+                <div class="card-title"> Personal Life </div>
+                <hr>
+                <div class="card-content">
+                    My personal life isn't all too interesting, but I do have an interesting family in general. I have
+                    two brothers, and a sister, and I'm the youngest of the three. I have multiple cats and dogs, and
+                    have had a large number of pets throughout my life. I'm currently living in a smallish town in the
+                    middle of
+                    upstate New York, and I'm looking to move to a better place in the future. I have family living all
+                    around the country,
+                    with people ranging from Hawaii to Florida.
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="contact-container">
+        <div class="card full-width">
+            <div class="card-title"> Contact Form </div>
+            <div class="card-content">
+                <div class="form">
+                    <div class="form-field">
+                        <label for="txtFirstName">First name:</label>
+                        <input type="text" id="txtFirstName" class="input" name="txtFirstName" />
+                    </div>
+                    <div class="form-field">
+                        <label for="txtLastName">Last name:</label>
+                        <input type="text" id="txtLastName" class="input" name="txtLastName" />
+                    </div>
+                    <div class="form-field">
+                        <label for="txtEmail">Email:</label>
+                        <input type="text" id="txtEmail" class="input" name="txtEmail" />
+                    </div>
+                    <div class="form-field">
+                        <button type="submit" class="btn btn-primary full-width" onclick="ClearFields()">Send
+                            Message</button>
+                        <script>
+                            function ClearFields() {
+
+                                // Clear all input fields
+                                document.getElementById("txtFirstName").value = "";
+                                document.getElementById("txtLastName").value = "";
+                                document.getElementById("txtEmail").value = "";
+
+                                var x = document.getElementById("alert");
+                                // Show the alert box for a few seconds
+                                x.style.display = "block";
+                                setTimeout(function () {
+                                    x.style.display = "none";
+                                }, 2000);
+                            }
+                        </script>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
